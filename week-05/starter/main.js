@@ -123,29 +123,3 @@ for ( const student of students) {
 
 
 /*** Practice ***/
-
-
-const $container =  document.getElementById('blogsContainer')
-
-for (const student of students){
-    $container.innerHTML += `
-    <div class="col-md-6">
-        <div class="ac-card">
-        <div class="ac-card-image"></div>
-        <div class="ac-card-info">
-            <p>
-                <strong id="name">${student.name}</strong><br>
-                <span id="studentNumber">${student.studentNumber}</span>
-            </p>
-            <p id="partTime" class="hide">PART TIME</p>
-            <p id="date" class="ac-card-date">${student.email}</p>
-        </div>
-        <img class="ac-icon" src="https://imdac.github.io/images/codepen/AC_ICON_1C_BLK_70x58.png">
-        <div class="ac-card-footer">
-            <img class="ac-logo" src="https://imdac.github.io/images/codepen/AC_WORDMARK_1C_WHT.png">
-        </div>
-        </div>
-    </div>
-    `
-
-}
